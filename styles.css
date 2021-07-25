@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color:#8EE4AF
+}
+
+#header{
+    font-family: "Roboto", sans-serif;
+    margin: 40px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+#grid{
+    display: grid;
+    width:400px;
+    height:400px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.test{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+}
+
+button{
+    font-family: "Roboto", sans-serif;
+    border: 5px solid black;
+    margin-top: 30px;
+    font-size: 1.2em;
+    padding:10px;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+i{
+    font-size:6em;
+}
+
+p{
+    font-size:1.2em;
+}
